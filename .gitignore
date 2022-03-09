@@ -1,0 +1,7 @@
+node_modules/
+test-results/
+playwright-report/
+.idea/
+.github/
+*.png
+.DS_Store

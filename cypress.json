@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "integrationFolder": "cypress/integration/tests",
+  "trashAssetsBeforeRuns": true,
+  "videosFolder": "cypress/videos",
+  "viewportHeight": 650,
+  "viewportWidth": 450
+}
