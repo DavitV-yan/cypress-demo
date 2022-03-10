@@ -14,6 +14,20 @@ const oddsFormat = [
   "indo",
 ];
 
+const routs = ["/live/Soccer", "/live-casino", "/casino"];
+
+describe("Open pages from home page", () => {
+  it.only("Open live games page from home page", () => {
+    mainPage.clickOnSeeAllTitleInLiveEventsBlock(routs[0]);
+  });
+  it.only("Open live casino page from home page", () => {
+    mainPage.clickOnSeeAllTitleInLiveCasinoBlock(routs[1]);
+  });
+  it.only("Open casino games page from home page", () => {
+    mainPage.clickOnSeeAllTitleInCasinoBlock(routs[2]);
+  });
+});
+
 describe("Change app language tests", () => {
   it("Change app language to Armenian", () => {
     mainPage.changeAppLanguage(language[0]);
